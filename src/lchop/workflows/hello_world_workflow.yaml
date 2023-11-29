@@ -1,0 +1,9 @@
+workflow:
+  - name: "print_hello"
+    description: "Print hello"
+    kwargs:
+      message: "Hello World!"
+  - name: "print_goodbye"
+    description: "Print goodbye"
+    kwargs:
+      message: "Goodbye World!"

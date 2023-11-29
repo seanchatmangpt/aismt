@@ -1,0 +1,44 @@
+tasks:
+  - name: "competitive_analysis_ADSC"
+    description: "Perform a SWOT and VRIO analysis of ADSC focusing on Ethical Competitive Intelligence and Generative AI Services."
+    kwargs:
+      services: ["Ethical Competitive Intelligence Services", "Generative AI Services"]
+      revenue_threshold: 50000000
+
+  - name: "analyze_competitors"
+    description: "Competitive analysis of ADSC's top 5 competitors, including SWOT and VRIO analysis, and positioning against Maslow’s Hierarchy of needs."
+    kwargs:
+      number_of_competitors: 5
+
+  - name: "create_landing_page_CI_AI_services"
+    description: "Create a landing page for ADSC's Ethical Competitive Intelligence and Generative AI Services."
+    kwargs:
+      emphasize_CI: True
+      target_audience: ["Marketing Leaders", "Company Leaders", "Software Developers", "Technical People", "Consultants", "Competitive Intelligence Leaders"]
+      call_to_action: "Free half-hour consultation"
+
+  - name: "create_synthetic_data_landing_page"
+    description: "Develop a landing page about ADSC's use of synthetic data in custom generative AI agents."
+    kwargs:
+      focus_on_synthetic_data: True
+      saas_potential_explanation: True
+
+  - name: "confirm_interest_in_consultation"
+    description: "Create landing pages/forms to confirm interest in the free consultation, with different content based on user response."
+    kwargs:
+      response_type: ["yes", "no"]
+      reasons_count: [3, 10]
+
+  - name: "rewrite_ethical_CI_webpage"
+    description: "Rewrite and structure the Ethical Competitive Intelligence webpage into a multi-page format."
+    kwargs:
+      source_url: "https://www.adscke.com/index.php/adsc-ethical-competitive-intelligence-services/"
+      target_format: "multi_page"
+      audience_focus: "upper management"
+
+  - name: "develop_generative_AI_mini_website"
+    description: "Create a mini-website about ADSC's Generative AI Services."
+    kwargs:
+      pages_count: 5
+      focus_areas: ["Generative AI", "Synthetic Data", "SAAS Solutions"]
+      wordpress_compatibility: True

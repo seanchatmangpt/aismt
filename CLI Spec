@@ -1,0 +1,12 @@
+Prompt for commands then move rover on 2d plane
+Points in a direction
+Turn left and right
+Move in direction it is facing
+
+```gherkin
+Feature: Interactive CLI Robot
+Scenario: Robot can be placed on a 2d plane
+Given a 2d plane
+When I place the robot at 0,0 facing north
+Then the robot is at 0,0 facing north
+```

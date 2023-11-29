@@ -1,0 +1,7 @@
+workflow:
+  - name: "generate_task_code_from_workflow"
+    description: "Initialize and setup the necessary environment and configurations"
+    kwargs:
+      workflow_path: "/Users/candacechatman/dev/linkml-projects/matrix-factory/src/matrix_factory/home_page_workflow.yaml"
+      task_code_path: "/Users/candacechatman/dev/linkml-projects/matrix-factory/src/lchop/tasks/home_task_execution_results.py"
+

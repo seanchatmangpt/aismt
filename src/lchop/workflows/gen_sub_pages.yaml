@@ -1,0 +1,49 @@
+global_kwargs: {}
+tasks:
+- description: Review the page on Generative AI on ADSC's website.
+  kwargs:
+    website_url: https://www.adscke.com/index.php/adsc-sales-marketing-generative-ai-services/
+  name: review_generative_ai_page
+- description: Generate a sub-page explaining the power of Generative AI.
+  kwargs:
+    prompt: Please generate a detailed sub-page explaining the power of Generative AI and its applications.
+    topic: Power of Generative AI
+  name: generate_power_of_generative_ai_subpage
+- description: Generate a sub-page explaining how ADSC can help create custom Generative AI Agents.
+  kwargs:
+    prompt: Please create a sub-page highlighting how ADSC's expertise can assist in the creation of custom Generative AI Agents.
+    topic: Custom Generative AI Agents
+  name: generate_custom_generative_ai_agents_subpage
+- description: Generate a sub-page explaining the use of synthetic data and its importance.
+  kwargs:
+    prompt: Create a sub-page elaborating on the significance of synthetic data and its role in AI development.
+    topic: Use of Synthetic Data
+  name: generate_use_of_synthetic_data_subpage
+- description: Generate a sub-page explaining privacy compliance in the context of Generative AI.
+  kwargs:
+    prompt: Please generate a sub-page discussing privacy compliance considerations when using Generative AI.
+    topic: Privacy Compliance
+  name: generate_privacy_compliance_subpage
+- description: Generate a sub-page explaining how internal custom agents can support sales and marketing.
+  kwargs:
+    prompt: Create a sub-page highlighting how internal custom agents can enhance sales and marketing processes.
+    topic: Internal Custom Agents
+  name: generate_internal_custom_agents_subpage
+- description: Generate a sub-page explaining the potential for SAAS sales of subscriptions with insights wrapped as custom agents.
+  kwargs:
+    prompt: Please create a sub-page discussing the potential for SAAS sales of subscriptions with insights as custom agents.
+    topic: SAAS Sales of Subscriptions
+  name: generate_saas_sales_subpage
+- description: Generate a sub-page explaining the concept of synthetic data.
+  kwargs:
+    prompt: Generate a sub-page explaining the concept of synthetic data and its applications in AI development.
+    topic: Synthetic Data
+  name: generate_synthetic_data_subpage
+- description: Apply appropriate styling to fit WordPress and the current ADSC website.
+  kwargs:
+    styling_type: WordPress and ADSC Website
+  name: apply_styling_for_wordpress_and_adsc_website
+- description: Generate HTML code for implementation on the ADSC website.
+  kwargs:
+    output_format: HTML
+  name: generate_html_for_implementation

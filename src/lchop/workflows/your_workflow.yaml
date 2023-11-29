@@ -1,0 +1,90 @@
+workflow:
+  - name: performMarketAnalysis
+    description: 'Perform market analysis to identify target audience and competitors'
+    kwargs:
+      target_audience: 'Multi-family Office Chiefs'
+      research_tools: ['Surveys', 'Focus Groups']
+      competitors: ['Competitor1', 'Competitor2']
+      pricing_models: ['Subscription', 'AUM%']
+      report_format: 'PDF'
+
+  - name: defineServiceTiers
+    description: 'Define service tiers and pricing strategy'
+    kwargs:
+      tiers: ['Basic', 'Premium', 'Elite']
+      services: ['Financial Planning', 'Tax Optimization', 'Estate Planning']
+      pricing_strategy: 'Variable'
+      add_ons: ['Real-time Monitoring', 'Family Governance']
+      tier_description_template: 'service_tier_description.jinja'
+
+  - name: developBackend
+    description: 'Develop backend to support service tiers'
+    kwargs:
+      tech_stack: 'Python, Flask'
+      security_measures: ['JWT', 'HTTPS']
+      logging_framework: 'Loguru'
+      project_structure: 'MVC'
+      endpoint_template: 'api_endpoint.jinja'
+
+  - name: createFrontendDashboard
+    description: 'Create frontend dashboard to display financial metrics'
+    kwargs:
+      tech_stack: 'HTML, CSS, JavaScript'
+      frameworks: ['Bootstrap']
+      widgets: ['Financial Metrics', 'Investment Performance']
+      user_roles: ['Chief', 'Advisor']
+      dashboard_template: 'dashboard_ui.jinja'
+
+  - name: implementPaymentGateway
+    description: 'Implement payment gateway to support subscription and one-time payments'
+    kwargs:
+      provider: 'Stripe'
+      payment_models: ['Subscription', 'One-Time']
+      currencies: ['USD', 'EUR']
+      transaction_fees: 'Pass to customer'
+      gateway_template: 'payment_gateway.jinja'
+
+  - name: integrateAnalytics
+    description: 'Integrate analytics to track user engagement and conversion rate'
+    kwargs:
+      tools: ['Google Analytics']
+      metrics: ['User Engagement', 'Conversion Rate']
+      goals: ['20% Conversion', 'High Retention']
+      report_frequency: 'Monthly'
+      analytics_template: 'analytics_config.jinja'
+
+  - name: performSecurityAudit
+    description: 'Perform security audit to identify vulnerabilities and compliance issues'
+    kwargs:
+      audit_tools: ['OWASP ZAP', 'Nessus']
+      compliance: ['GDPR', 'HIPAA']
+      risk_threshold: 'Low'
+      remediation_plan: 'Immediate'
+      audit_report_template: 'security_audit.jinja'
+
+  - name: conductUserTesting
+    description: 'Conduct user testing to identify usability issues and feature relevance'
+    kwargs:
+      test_group: 'Selected Chiefs'
+      methodologies: ['A/B Testing', 'User Interviews']
+      kpis: ['Ease of Use', 'Feature Relevance']
+      duration: '2 weeks'
+      testing_report_template: 'user_testing.jinja'
+
+  - name: deployMonetizationPlan
+    description: 'Deploy monetization plan to generate revenue'
+    kwargs:
+      channels: ['Website', 'Direct Sales']
+      launch_date: 'Q2 2024'
+      promotional_methods: ['Email Marketing', 'SEO']
+      tracking: 'UTM Codes'
+      deployment_template: 'deployment_plan.jinja'
+
+  - name: monitorAndIterate
+    description: 'Monitor and iterate to improve performance'
+    kwargs:
+      performance_metrics: ['Revenue', 'User Growth']
+      feedback_channels: ['Surveys', 'Support Tickets']
+      iteration_frequency: 'Quarterly'
+      performance_goals: ['20% YoY Growth']
+      monitoring_template: 'performance_monitoring.jinja'

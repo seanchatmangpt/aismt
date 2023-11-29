@@ -1,0 +1,32 @@
+{
+  "template": "https://github.com/radix-ai/poetry-cookiecutter",
+  "commit": "eaec9e0a47b4ff89d19bae8d75a9f12889504ce6",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "package_name": "aismt",
+      "package_description": "A command-line interface for AI Smart Task.",
+      "package_url": "https://github.com/chatmangpt/aismt",
+      "author_name": "Sean Chatman",
+      "author_email": "info@chatmangpt.com",
+      "python_version": "3.11",
+      "docker_image": "python:3.11-slim",
+      "development_environment": "simple",
+      "with_conventional_commits": "0",
+      "with_fastapi_api": "1",
+      "with_jupyter_lab": "0",
+      "with_pydantic_typing": "1",
+      "with_sentry_logging": "0",
+      "with_streamlit_app": "1",
+      "with_typer_cli": "1",
+      "continuous_integration": "GitHub",
+      "docstring_style": "Google",
+      "private_package_repository_name": "",
+      "private_package_repository_url": "",
+      "__package_name_kebab_case": "aismt",
+      "__package_name_snake_case": "aismt",
+      "_template": "https://github.com/radix-ai/poetry-cookiecutter"
+    }
+  },
+  "directory": null
+}

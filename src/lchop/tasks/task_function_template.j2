@@ -1,0 +1,14 @@
+from loguru import logger
+from lchop.context.task_context import register_task
+
+
+{% for task in workflow %}
+@register_task
+async def {{ task.name }}(work_ctx, {% for param in task['kwargs'] %}{{ param }}{% if not loop.last %}, {% endif %}{% endfor %}, **kwargs):
+    logger.info(f"Executing task: {{ task.name }}")
+
+    # Task-specific code here...
+
+    return {'success': True, 'results': f"Successfully executed: {{ task.name }}"}
+
+{% endfor %}

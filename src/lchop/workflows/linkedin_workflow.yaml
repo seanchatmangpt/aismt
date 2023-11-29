@@ -1,0 +1,7 @@
+global_kwargs:
+  group_id: 46192
+
+workflow:
+  - name: launch_browser
+  - name: navigate_to_group_members
+    description: "Go to the LinkedIn group members page"

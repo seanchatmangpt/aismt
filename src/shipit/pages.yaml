@@ -1,0 +1,334 @@
+- page: ProjectDefinition
+  smart_template: ShipItPageTemplate
+  prompt: >
+    What’s the project?
+    (Make ‘the project’ manageable, finite, time-dated and do-able (or failable). Subprojects are fine.) If you can’t write it down, you don’t have a project.
+
+    When does it ship?
+
+    Please give a date and a time.
+
+    Who is responsible for shipping it?
+
+    You can list team members, but only one person is responsible. Put a * next to her name.
+  file: project_definition.md
+
+- page: ShipDate
+  smart_template: ShipItPageTemplate
+  prompt: When does it ship?
+  file: ship_date.md
+
+- page: ResponsiblePerson
+  smart_template: ShipItPageTemplate
+  prompt: Who is responsible for shipping it?
+  file: responsible_person.md
+
+- page: Fears
+  smart_template: ShipItPageTemplate
+  prompt: >
+    What are you afraid of?
+
+    What else (the truth this time)?
+
+    Why are you afraid?
+  file: fears.md
+
+- page: Edges
+  smart_template: ShipItPageTemplate
+  prompt: >
+    Pick some edges
+
+    No one cares about boring.
+
+    We care about the extremes.
+
+    When you make compromises before you ship (and you will), don’t compromise the edges that matter.
+
+    Open ........................ Closed
+
+    Easy.......................... Difficult
+
+    Rights ....................... Responsibilities
+
+    Take ......................... Give
+
+    Fake.......................... Real
+
+    Fast .......................... Slow
+
+    Cheap ....................... Expensive
+
+    Cutting edge Proven Risky ........................ Safe
+
+    Disposable Durable Solo .......................... Mesh
+
+    Sold .......................... Bought
+
+    Honest...................... Sneaky
+
+    New ......................... Classic
+
+    Me ........................... You
+  file: edges.md
+
+- page: Customer
+  smart_template: ShipItPageTemplate
+  prompt: >
+    Who is your customer?
+
+    Who are you trying to please?
+
+    The boss
+
+    The board of directors
+
+    Mass media
+
+    Your retailers
+
+    Your competition
+
+    The end user
+
+    Your in-laws Current investors
+
+    Potential investors
+
+    Your friends
+
+    Anonymous
+
+    trolls
+
+    Voters
+  file: customer.md
+
+- page: InfluencersAuthorities
+  smart_template: ShipItPageTemplate
+  prompt: >
+    Who are the key influencers, gatekeepers and authorities?
+
+    Does anyone else matter?
+
+    If so, can you ignore them?
+  file: influencers_authorities.md
+
+- page: Devil'sAdvocate
+  smart_template: ShipItPageTemplate
+  prompt: >
+    Questions and ideas for the devil’s advocate (things to say to slow things down, average things out or create panic or malaise):
+
+    It’s too soon
+
+    It’s too late
+
+    It’s technically risky
+
+    It’s boring
+
+    It will offend retailers
+
+    There are significant legal issues
+
+    The plant is too backed up to produce this
+
+    It will take too much training to support
+
+    The Media won’t get it
+
+    Our industry is too regulated
+
+    The home office won’t approve
+
+    There’s no room in this year’s budget, let’s review in a few months
+
+    It might fail
+
+    Our big competitor will steal it
+
+    It’s been done before
+
+    It’s never been done before
+
+    People will laugh at us
+
+    If you hear any of these, underline them. If you find yourself saying them, stop yourself.
+  file: devils_advocate.md
+
+- page: WhoCanStop
+  smart_template: ShipItPageTemplate
+  prompt: >
+    Who can stop this project?
+
+    Make a list of every internal individual or committee who could slow down, compromise or kill this project.
+
+    Who else can stop this project?
+
+    Make a list of every external individual, organization or entity who could slow down, compromise or kill this project.
+  file: who_can_stop.md
+
+- page: EssentialToSuccess
+  smart_template: ShipItPageTemplate
+  prompt: >
+    Who is essential to our success?
+
+    Make a list of every internal individual or committee who must embrace this project for it to work.
+
+    Put a check next to those that have a history of supporting ideas like these...
+  file: essential_to_success.md
+
+- page: WhatDoesPerfectLookLike
+  smart_template: ShipItPageTemplate
+  prompt: >
+    What does perfect look like?
+
+    Be specific. Be a stickler.
+
+    What does good enough look like?
+  file: what_does_perfect_look_like.md
+
+- page: TasksAndEvents
+  smart_template: ShipItPageTemplate
+  prompt: >
+    List every task and event that needs to happen, by whom, and by when.
+  file: tasks_and_events.md
+
+- page: Competition
+  smart_template: ShipItPageTemplate
+  prompt: >
+    Who becomes your competition?
+
+    (One reason to hesitate is that shipping something opens you to criticism.
+
+    Another, sneakier reason to hesitate is that shipping also opens you to competition,
+
+    to people who will then try to overcome your lead, putting you into a race.
+
+    So, who is about to compete with you?)
+  file: competition.md
+
+- page: Failure
+  smart_template: ShipItPageTemplate
+  prompt: >
+    What does failure look like?
+
+    List every outcome or event you’re anxious about happening.
+
+    (Really? at’s it?) Try again.
+  file: failure.md
+
+- page: BradmanTest
+  smart_template: ShipItPageTemplate
+  prompt: >
+    The Bradman Test
+    What would Donald Bradman, the best who ever lived, do if this were his project?
+
+    (of course, this is a great reason to stall, because being the best who ever lived
+    at what you do is an almost impossible standard. If you’re going to wait until
+    that happens, you’re going to wait a long time, no?)
+  file: badman_test.md
+
+- page: YoureNotBradman
+  smart_template: ShipItPageTemplate
+  prompt: >
+    But you’re not Bradman
+    Since you’re not impossibly good at the core skill involved in this project, how will things be different? What will you bring to this project that someone who is truly gifted might not?
+
+    Okay, let’s try again. Given that you’re not the Michelangelo of this domain, the Julia Child or even the William Shatner, how can you possibly hope to have a breakthrough? e only solution is to find edges others haven’t found, to bring a dynamic others are afraid of. What’s yours?
+  file: not_bradman.md
+
+- page: PlusIt
+  smart_template: ShipItPageTemplate
+  prompt: Plus it! List ten things you could add that would radically or subtly improve your project.
+  file: plus_it.md
+
+- page: MinusIt
+  smart_template: ShipItPageTemplate
+  prompt: Minus it! List ten things you could subtract that would radically or subtly improve your project or get it out the door.
+  file: minus_it.md
+
+- page: Thrash
+  smart_template: ShipItPageTemplate
+  prompt: Thrash - List every element of the project that needs to be settled, designed, or approved before you can ship. Don’t forget to include the ones you highlighted earlier in this booklet.
+  file: thrash.md
+
+- page: GatedThrashing
+  smart_template: ShipItPageTemplate
+  prompt: >
+    Gated Thrashing
+    Take the items on the previous page and force them into one of four categories, with as many as possible in the first two.
+    First: before you start design and production
+    During: while you’re working
+    Testing
+    Final
+    The discipline of thrashing is to refuse to move onto the next step until each item is approved, in writing.
+  file: gated_thrashing.md
+
+- page: SmartMeetingsChecklist
+  smart_template: ShipItPageTemplate
+  prompt: >
+    Smart meetings checklist
+
+    Would skipping this meeting impede our ability to ship? Could it be a wiki or Basecamp meeting instead?
+
+    If we have to have the meeting, can we do it in a room with no chairs?
+
+    Can we invite fewer people? How few?
+
+    What’s the purpose of this meeting? Pick one of the following, and you can only pick one. If it’s more than one, skip the meeting.
+
+    • Inform people about the project
+
+    • Learn opinions or facts that will help you ship
+
+    • Discuss the project and gain input from
+    interested parties
+
+    • Pitch or approve the idea
+
+    After we’re finished, how will we know if the meeting was a success?
+  file: smart_meetings_checklist.md
+
+- page: WhenWasTheLastTime
+  smart_template: ShipItPageTemplate
+  prompt: When was the last time you did something for the first time? How did you feel when you did that? Would you like to feel it again?
+  file: when_was_the_last_time.md
+
+- page: TurnPro
+  smart_template: ShipItPageTemplate
+  prompt: >
+    Turn Pro
+
+    Emotional labor is doing the work you don’t feel like doing, because that’s the work.
+    As Steve Pressfield points out, the act of turning pro is a conscious decision to do
+    emotional labor. If you were a pro at this, how would you do it differently?
+  file: turn_pro.md
+
+- page: Shame
+  smart_template: ShipItPageTemplate
+  prompt: >
+    Shame?
+    “You’re not as good as you think you are...” Are you waiting to hear this? Afraid of it?
+    What would it feel like if you did? Make a list of what you might hear instead of that
+    if you actually shipped, shipped something artistic and generous and world-changing:
+  file: shame.md
+
+- page: TakeABow
+  smart_template: ShipItPageTemplate
+  prompt: Take a bow - You earned it. Reserve this page for describing what happened when you shipped. If you want to write down the truth in advance, if you want to describe the end before you begin, go ahead.
+  file: take_a_bow.md
+
+- page: TheSystemWeGrewUpWith
+  smart_template: ShipItPageTemplate
+  prompt: >
+    e system we grew up with is a mess. It’s falling apart at the seams and a lot of people I care about (maybe you) are in pain because the things we thought would work, don’t. Every day I meet people who have so much to give but have been bullied enough or frightened enough to hold it back. ey have become victims, pawns in a senseless system that uses them up and undervalues them.
+
+    It’s about a choice and it’s about your life. is choice doesn’t require you to quit your job, though it challenges you to rethink how you do your job. It’s time to stop complying with the system and draw your own map.
+
+    Stop settling for what’s good enough and start creating art that matters. Stop asking what’s in it for you and start giving gifts that change people. en, and only then, will you have achieved your potential.
+
+    For hundreds of years, the population has been seduced, scammed and brainwashed into fitting in, following instructions and exchanging a day’s work for a day’s pay. at era has come to an end, and just in time.
+
+    You have brilliance in you, your contribution is valuable, and the art you create is precious. Only you can do it, and you must. I’m hoping you’ll stand up and choose to make a difference.
+
+  file: the_system_we_grew_up_with.md
